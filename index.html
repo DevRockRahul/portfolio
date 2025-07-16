@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <nav>
+           <a href="/"><h1 class="Name">Rahul</h1></a> 
+            <div class="nav-toggle" id="nav-toggle" aria-label="Open navigation" tabindex="0">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="nav-close" id="nav-close" aria-label="Close navigation" tabindex="0" style="display:none;">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <ul id="nav-list">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Rahul</span><br>Kumar from India</h1>
+            <p class="header-sub">Aspiring Software Developer & Engineer</p>
+        </div>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <div class="row about-row">
+            <div class="about-col-1">
+                <img src="images/photo.jpg" alt="Rahul Kumar">
+            </div>
+            <div class="about-col-2">
+                <h2 class="sub-title">About Me</h2>
+                <p class="intro">
+                    I am a final-year undergraduate student pursuing a degree in Electrical Engineering at the National Institute of Technology (NIT), Raipur. Over the course of my academic journey, I have developed strong technical skills not only in my core domain but also in programming and web development. I am proficient in Data Structures, Algorithms, HTML, CSS, and JavaScript, and have a keen interest in software development and interdisciplinary applications of technology.<br><br>
+                    I completed my schooling at ST. Xavier International School, where I laid the academic foundation for my technical pursuits.<br><br>
+                    I am actively seeking opportunities where I can contribute meaningfully, continue learning, and grow as a technology professional.
+                </p>
+                <div class="tab-titles">
+                    <button class="tab-links active-link" onclick="opentab('Skills')">Skills</button>
+                    <button class="tab-links" onclick="opentab('Education')">Education</button>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Data Structures & Algorithms</span></li>
+                        <li><span>Web Development</span></li>
+                        <li><span>Object-Oriented Programming</span></li>
+                        <li><span>Computer Networks</span></li>
+                        <li><span>Database Management Systems</span></li>
+                        <li><span>Operating Systems</span></li>
+                        <li><span>SQL</span></li>
+                        <li><span>HTML, CSS, JavaScript</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Rajkamal Saraswati Vidya Mandir<br>Secondary Education (Class 10th), CBSE<br>Completed: 2020</span></li>
+                        <li><span>GGCET ST. Xavier International School<br>Senior Secondary Education (Class 12th), CBSE<br>Completed: 2022</span></li>
+                        <li><span>National Institute of Technology, Raipur<br>Bachelor of Technology (B.Tech) in Electrical Engineering<br>Graduation Year: 2026</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <div class="container">
+        <h2 class="sub-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A modern, responsive personal portfolio website built with HTML, CSS, and JavaScript. Showcases skills, projects, and contact information.</p>
+                <div class="project-tags">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>A simple weather application that fetches real-time weather data using a public API and displays it in a user-friendly interface.</p>
+                <div class="project-tags">
+                    <span>JavaScript</span><span>API</span><span>CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Task Manager</h3>
+                <p>A productivity tool to manage daily tasks, featuring add, edit, and delete functionalities with a clean and intuitive UI.</p>
+                <div class="project-tags">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="row contact-row">
+            <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2>
+                <p><i class="fa-solid fa-paper-plane"></i> rahulji7414@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> +91 8789287414</p>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="#" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Tab switching for About section
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    // Responsive Navbar Toggle
+    const navToggle = document.getElementById('nav-toggle');
+    const navClose = document.getElementById('nav-close');
+    const navList = document.getElementById('nav-list');
+
+    function openNav() {
+        navList.classList.add('active');
+        navToggle.style.display = 'none';
+        navClose.style.display = 'block';
+        document.body.classList.add('nav-open');
+    }
+    function closeNav() {
+        navList.classList.remove('active');
+        navToggle.style.display = 'block';
+        navClose.style.display = 'none';
+        document.body.classList.remove('nav-open');
+    }
+    navToggle.addEventListener('click', openNav);
+    navClose.addEventListener('click', closeNav);
+    navList.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', closeNav);
+    });
+    // Hide close icon by default
+    navClose.style.display = 'none';
+
+    // Keyboard accessibility
+    navToggle.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') openNav();
+    });
+    navClose.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') closeNav();
+    });
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwJxq3me0G1Ms_nlSRtKR0Pt6GjAdiBEqvce3e-CixyBiOZrc0ulQXbpZ16xWn6s8c7/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML =""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
